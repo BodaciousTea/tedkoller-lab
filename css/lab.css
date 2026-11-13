@@ -1,4 +1,5 @@
 .lab {
+  --ground: #000;
   min-width: 0;
 }
 
@@ -15,13 +16,7 @@
   opacity: 1;
 }
 
-.lab .lab-intro {
-  min-height: min(560px, 65vh);
-}
-
-.lab .lab-title,
-.lab .lab-section-title,
-.lab .lab-entry-title {
+.lab .lab-title {
   margin: 0;
   font-size: var(--nav-copy-size);
   font-weight: 400;
@@ -30,14 +25,8 @@
   text-transform: none;
 }
 
-.lab .lab-title {
-  font-size: clamp(28px, 4vw, 42px);
-  line-height: 1.1;
-}
-
-.lab .lab-collection {
+.lab-row + .lab-row {
   border-top: 1px solid var(--line);
-  scroll-margin-top: calc(var(--header-height) + 50px);
 }
 
 .lab .site-main {

@@ -1,0 +1,53 @@
+.lab-article {
+  width: min(100%, 760px);
+  margin-inline: auto;
+  padding-block: clamp(34px, 7vw, 86px);
+  text-align: center;
+}
+
+.lab-article h1,
+.lab-article h2 {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.lab-article h1 {
+  font-size: clamp(28px, 4vw, 42px);
+}
+
+.lab-article h2 {
+  margin-top: 64px;
+  font-size: clamp(21px, 3vw, 28px);
+}
+
+.lab-article p {
+  max-width: 60ch;
+  margin: 32px auto;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.article-heading {
+  margin-bottom: 56px;
+}
+
+.lab-article figure {
+  margin: 56px 0;
+}
+
+.lab-article img {
+  width: 100%;
+  height: auto;
+}
+
+.lab-article figcaption {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.article-nav {
+  margin-top: 64px;
+}

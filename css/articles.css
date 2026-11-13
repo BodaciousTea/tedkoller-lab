@@ -22,6 +22,8 @@
 }
 
 .lab-article p {
+  text-align: justify;
+  text-align-last: left;
   max-width: 60ch;
   margin: 32px auto;
   font-size: 16px;
@@ -42,9 +44,10 @@
 }
 
 .lab-article figcaption {
+  text-align: left;
   margin-top: 16px;
   color: var(--muted);
-  font-size: 13px;
+  font-size: var(--nav-copy-size);
   line-height: 1.5;
 }
 
